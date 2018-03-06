@@ -5,3 +5,79 @@ body{
   font-family: 'Montserrat';
   background-color: #0c202f;
 }
+.App {
+  text-align: center;
+}
+.icon{
+ padding-right: 0.5rem;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.white { color: white;
+}
+
+.loss{
+  color: #F56151;
+}
+.gain{
+  color: #6AC04B;
+}
+.cryptoCard {
+  color: #FCFBE9;
+  background-color: #0c2b3a; border: 1px solid #FCFBE9; border-radius: 0.2rem;
+  display: flex; justify-content: space-around; align-items: center;
+  flex-direction: row;
+  margin: 0 auto; max-width: 25rem; min-height: 4rem;
+  margin-bottom: 1rem; margin-top: 1rem;
+}
+h1 {
+  font-family: 'Montserrat';
+  font-style: light;
+  text-transform: uppercase;
+  font-size: 2rem;  
+  display: flex; justify-content: center;
+}
+.name {
+  display: flex; flex-direction: row;
+}
+.right {
+  display: flex; flex-direction: column; align-items: center;
+  min-width: 150px;
+}
+.percentage-container {
+  display: flex; flex-direction: column; align-items: center;
+}
+.cryptoName-container{
+  display: flex; flex-direction: column; justify-content: flex-start;
+}
+.symbol, .percentage {
+  font-size: 0.7rem;
+}
+.symbol {
+  color: #4e7388;
+}
+
+
